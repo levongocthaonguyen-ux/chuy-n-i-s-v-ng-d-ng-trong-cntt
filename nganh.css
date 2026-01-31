@@ -1,0 +1,111 @@
+/* ===== HERO ===== */
+.hero {
+    background: linear-gradient(90deg, #C4C7F2, #1D97F1);
+    color: #020D2F;
+    padding: 50px 40px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* ===== LAYOUT ===== */
+.container {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+}
+
+.content {
+    width: 70%;
+}
+
+.content section {
+    background: #ffffff;
+    padding: 28px 32px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+}
+.content h2 {
+    color: #0841C9;
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 30%;
+    position: sticky;
+    top: 20px;
+    height: calc(100vh - 40px);
+    overflow-y: auto;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.box h3 {
+    margin-bottom: 10px;
+    color: #032C7D;
+}
+
+.box ul {
+    padding-left: 18px;
+}
+
+.box input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.box button {
+    width: 100%;
+    padding: 8px;
+    background: #1D97F1;
+    color: white;
+    border: none;
+}
+.toc {
+    padding-left: 20px;
+}
+
+.toc li {
+    margin-bottom: 8px;
+}
+.toc a {
+    color: #020D2F;
+    text-decoration: none;
+}
+
+.toc a:hover {
+    color: #1D97F1;
+}
+
+.toc a.active {
+    border-left: 3px solid #1D97F1;
+    padding-left: 8px;
+    font-weight: 600;
+}
+/* ===== FOOTER ===== */
+.footer {
+    background: #020D2F;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.back-top {
+    color: #C4C7F2;
+    text-decoration: none;
+}

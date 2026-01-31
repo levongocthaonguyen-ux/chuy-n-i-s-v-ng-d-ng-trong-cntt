@@ -1,0 +1,146 @@
+/* ===== TRANG CHỦ ===== */
+
+.home {
+    padding: 40px;
+}
+
+/* HERO */
+.home-hero {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.hero-main {
+    flex: 2;
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 14px;
+}
+
+.hero-main h1 {
+    font-size: 32px;
+    color: #020D2F;
+    margin-bottom: 14px;
+}
+
+.hero-main p {
+    margin-bottom: 20px;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.hero-quiz {
+    flex: 1;
+    background: #eef2ff;
+    padding: 24px;
+    border-radius: 14px;
+}
+.quiz-image {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    
+}
+
+.image-placeholder,
+.icon-placeholder {
+    background: #dbe3ff;
+    color: #555;
+    text-align: center;
+    padding: 40px 10px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+/* GIỚI THIỆU CĐS */
+.home-digital {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.digital-img {
+    height: 50%;
+    width: 50%;
+    border-radius: 12px;
+}
+
+.digital-content {
+    flex: 2;
+}
+
+/* NHÓM NGÀNH */
+.home-career {
+    margin-bottom: 40px;
+}
+
+.career-list {
+    display: flex;
+    gap: 20px;
+}
+
+.career-card {
+    height:15%;
+    width: 15%;
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    flex: 1;
+}
+
+/* VÌ SAO */
+.home-reason {
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.home-reason ul {
+    padding-left: 20px;
+}
+
+/* DỰ ÁN */
+.home-project {
+    display: flex;
+    gap: 30px;
+}
+
+.project-info,
+.project-team {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    flex: 1;
+}
+
+/* NÚT */
+.btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn.primary {
+    background: #1D97F1;
+    color: white;
+}
+
+.btn.outline {
+    border: 1px solid #1D97F1;
+    color: #1D97F1;
+}
+
+.btn.small {
+    display: inline-block;
+    margin-top: 10px;
+    background: #0841C9;
+    color: white;
+}

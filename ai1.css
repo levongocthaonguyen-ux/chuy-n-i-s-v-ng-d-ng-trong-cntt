@@ -1,0 +1,79 @@
+/* ===== SECTION 1: TỔNG QUAN NGHỀ AI ===== */
+
+/* Chia layout thành 2 cột bằng flex */
+.ai-overview .overview-wrap {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+/* Cột nội dung chữ */
+.ai-overview .overview-text {
+    width: 60%;
+}
+
+/* Cột ảnh minh họa */
+.ai-overview .overview-image {
+    width: 40%;
+}
+
+/* Ảnh hiển thị vừa khung, bo góc */
+.ai-overview .overview-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+/* ===== SECTION 2: CÔNG VIỆC CHÍNH ===== */
+
+/* Khối chứa 3 ảnh, xếp ngang */
+.ai-jobs .job-gallery {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Mỗi ảnh chiếm 1/3 chiều rộng */
+.ai-jobs .job-item {
+    width: 33.33%;
+    text-align: center;
+}
+
+/* Ảnh công việc */
+.ai-jobs .job-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+/* Mô tả dưới ảnh */
+.ai-jobs .job-item p {
+    font-size: 14px;
+    color: #032C7D;
+}
+/* ===== SECTION 8: LỜI KHUYÊN HS THPT ===== */
+
+/* Chia layout ảnh – chữ theo chiều ngang */
+.ai-advice .advice-wrap {
+    display: flex;
+    gap: 24px;
+    align-items: stretch;
+}
+
+/* Khối ảnh bên trái */
+.ai-advice .advice-image {
+    width: 40%;
+}
+
+/* Ảnh phủ toàn bộ chiều cao section */
+.ai-advice .advice-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Nội dung chữ căn giữa theo chiều dọc */
+.ai-advice .advice-text {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}

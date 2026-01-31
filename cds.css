@@ -1,0 +1,101 @@
+/* =====================================
+   CSS RIÊNG CHO TRANG: CHUYỂN ĐỔI SỐ
+   File: cds.css
+   ===================================== */
+
+/* ===== HERO CHUYỂN ĐỔI SỐ (BACKGROUND IMAGE) ===== */
+.digital-hero {
+    position: relative;
+    min-height: 320px;
+    padding: 60px 50px;
+
+    /* Ảnh nền */
+    background-image:
+        url("di.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 24px;
+    margin-bottom: 40px;
+
+    color: #ffffff;
+}
+.digital-hero h1 {
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.digital-hero p {
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 520px;
+  line-height: 1.6;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 50%;
+  padding: 80px 60px;
+}
+/* ===== PHÂN NỀN CÁC SECTION ===== */
+/* Section nội dung chính */
+.digital-overview,
+.digital-role,
+.digital-orientation {
+    background: #ffffff;
+}
+
+/* Section dạng danh sách / thẻ */
+.digital-levels,
+.digital-groups {
+    background: #F8FAFF;
+}
+
+/* ===== CẤP ĐỘ CHUYỂN ĐỔI SỐ ===== */
+.level-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.level-card {
+    background: #F8FAFF;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.level-card h3 {
+    color: #0841C9;
+    margin-bottom: 8px;
+}
+
+/* ===== NHÓM NGÀNH CNTT ===== */
+.group-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.group-card {
+    background: #F4F7FF;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.group-card h3 {
+    color: #032C7D;
+    margin-bottom: 10px;
+}
+
+.group-card a {
+    display: inline-block;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+/* ===== ĐỔ BÓNG NHẸ CHO CARD ===== */
+.level-card,
+.group-card {
+    box-shadow: 0 6px 14px rgba(0,0,0,0.05);
+}
